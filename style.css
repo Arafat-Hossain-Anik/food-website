@@ -4,6 +4,26 @@
     padding: 0;
     font-family: 'Poppins', sans-serif;
 }
+.navbar{
+    background-color: rgba(56, 197, 197, 0.795);
+    padding:10px;
+}
+.links{
+    text-align: right;
+    margin: 10px;
+}
+.links a{
+    text-decoration: none;
+    margin-left: 30px;
+    color: black;
+    font-weight: 700;
+    padding:5px 20px;
+    background-color: rgba(67, 170, 196, 0.103);
+    border-radius: 5px;
+}
+.links a:hover{
+    box-shadow: 1px 2px 10px white;
+}
 .container{
     display: flex;
     justify-content: center;
@@ -11,6 +31,11 @@
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
+}
+@media only screen and (max-width: 768px) {
+    .container{
+        flex-wrap: wrap;
+    }
 }
 .items{
     width: 50%;
@@ -23,7 +48,7 @@
     text-align: justify;
     padding-right: 5%;
 }
-#man-with-hotdog{
+#female-with-food{
     width: 80%;
 }
 h1{
@@ -54,7 +79,6 @@ span{
     background-image: url("images/about-section-bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    margin-top:90px;
 }
 .image-person{
     padding: 20px 0 0 0;
@@ -66,10 +90,16 @@ span{
 .my-recipies-intro{
     text-align: center;
     padding: 20px;
+    background-color: rgba(56, 197, 197, 0.219);
+}
+.my-recipies-intro h2{
+    font-size: 40px;
+    color:rgb(38, 137, 161);
 }
 .my-recipies-intro p{
     padding: 1% 25% 1% 25%;
     text-align: justify;
+    color: rgb(41, 39, 39);
 }
 .food-items{
     width: 20%;
@@ -79,10 +109,13 @@ span{
     padding: 1%;
     margin: 2%;
     margin-bottom: 100px;
-
+}
+.food-items p{
+    margin-top: 10px;
 }
 .food-image{
     width: 100%;
+    margin-bottom: 10px;
 }
 footer{
     text-align: center;
@@ -121,7 +154,7 @@ footer{
 }
 #sent{
     width: 50.5%;
-    background-color: #003ee6;
+    background-image: linear-gradient(45deg, rgb(48, 175, 214),rgb(49, 49, 231));
     color: #fff;
     font-weight: 900;
     border-radius:5px;

@@ -6,21 +6,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <title>Food Fest</title>
 </head>
 
 <body>
+    <section class="navbar">
+        <div class="links">
+            <a href="index.html">Home</a>
+            <a href="#about-me">About Me</a>
+            <a href="#recipie-section">My Recipies</a>
+            <a href="#contact-me">Contact Me</a>
+        </div>
+    </section>
     <section class="container">
         <div class="items items-details">
             <h1>Skip The Diet,<br>Just Eat Healthy <br> With <span>Food Fest</span></h1>
             <p>Stop Thinking About Diet. We are here for You with<br> Our 100% Fresh and Natural Food.</p>
-            <a class="button-link" target="_blank" href="https://www.facebook.com/arafarskd">Order Now</a>
+            <a class="button-link" target="_blank" href="https://www.facebook.com/arafatskd">Order Now</a>
         </div>
         <div class="items">
-            <img id="man-with-hotdog" src="images/female-with-food.png" alt="Female With A Natural Food">
+            <img id="female-with-food" src="images/female-with-food.png" alt="Female With A Natural Food">
         </div>
     </section>
-    <section class="container about-me-section">
+    <section id="about-me" class="container about-me-section">
         <div class="items image-person">
             <img id="person-image" src="images/person-image.png" alt="">
         </div>
@@ -31,11 +40,11 @@
                 think about my clients health and serve them nutritious, healthy and natural food. So, don't think about
                 diet. Take our's fresh and natural food and be healthy.
             </p>
-            <a class="button-link" href="#">Contact Me</a>
-
+            <a class="button-link" target="_blank" href="https://www.linkedin.com/in/arafat-hossain-anik/">Contact
+                Me</a>
         </div>
     </section>
-    <section class="recipie-container">
+    <section id="recipie-section" class="recipie-container">
         <div class="my-recipies-intro">
             <h2>My Recipies</h2>
             <p>
@@ -46,32 +55,32 @@
         <div class="container">
             <div class="food-items">
                 <img class="food-image" src="images/food-image-1.jpg" alt="">
-                <h3>Recipie Title</h3>
+                <h3>Egg Roll</h3>
                 <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod ex dolorem aliquid molestias error
-                    labore cupiditate necessitatibus inventore fugit. Necessitatibus?
+                    Egg Role is made of egg, chocolate and milk. It contains protain, carbo-hydrate and vitamins which
+                    is necessary for health.
                 </p>
             </div>
             <div class="food-items">
                 <img class="food-image" src="images/food-image-2.png" alt="">
-                <h3>Recipie Title</h3>
+                <h3>Special Soup</h3>
                 <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod ex dolorem aliquid molestias error
-                    labore cupiditate necessitatibus inventore fugit. Necessitatibus?
+                    Special Soup is made of mashroom, meat, milk and other ingredients. Mashroom saves from heart
+                    failure and Meat and Milk helps to make muscle.
                 </p>
             </div>
             <div class="food-items">
                 <img class="food-image" src="images/food-image-3.jpg" alt="">
-                <h3>Recipie Title</h3>
+                <h3>Jhal Fry</h3>
                 <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod ex dolorem aliquid molestias error
-                    labore cupiditate necessitatibus inventore fugit. Necessitatibus?
+                    Delicious Jhal Fry is a great source of protain. which is made of deshi chicken meat and totaly
+                    rasied in our farm.
                 </p>
             </div>
         </div>
     </section>
     <footer>
-        <div class="upper">
+        <div id="contact-me" class="upper">
             <h2>Contact Form</h2>
             <form action="" method="post">
                 <input class="user-info" type="text" name="name" placeholder="Name"></input>
@@ -83,7 +92,7 @@
         </div>
         <div class="lower">
             <h1><Span>Food</Span> <span id="footer-fest">Fest</span></h1>
-            <p>Eat Healthy To Live Healthy. Live Healthy To Live Happy</p>
+            <p><span>Eat Healthy</span> To Live Healthy. <span>Live Healthy</span> To Live Happy</p>
         </div>
     </footer>
 </body>
